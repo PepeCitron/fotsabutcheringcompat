@@ -29,5 +29,8 @@
 	"item-deaddromornithidae-*": "Mihirungs (Dead)",
 	"itemdesc-deaddromornithidae-*": "Le poids de l'animal vous pèse modérément",
 	"item-deadrallidae-*": "Râles (Dead)",
-	"itemdesc-deadrallidae-*": "Le poids de l'animal vous pèse légèrement"
+	"itemdesc-deadrallidae-*": "Le poids de l'animal vous pèse légèrement",
+
+	"item-deadelephantidae-*": "Éléphant (Dead)",
+	"itemdesc-deadelephantidae-*": "Le poids de l'animal vous pèse lourdement"
 }
