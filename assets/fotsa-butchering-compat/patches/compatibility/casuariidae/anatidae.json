@@ -1,0 +1,59 @@
+[
+	{
+		"op": "replace",
+		"path": "/enabled",
+		"value": true,
+		"file": "fotsa-butchering-compat:itemtypes/butchercreatures/casuariidae/anatidae.json",
+		"dependsOn": [ { "modid": "casuariidae" } ]
+	},
+	{
+		"op": "add",
+		"path": "/server/behaviors/-",
+		"value": {
+			"code": "butcherable",
+			"itemByType": {
+				"anatidae-adult-female-*": "fotsa-butchering-compat:deadanatidae-female-1-dead",
+				"anatidae-adult-male-*": "fotsa-butchering-compat:deadanatidae-male-1-dead"
+			}
+		},
+		"file": "casuariidae:entities/land/anatidae-adult.json",
+		"dependsOn": [ { "modid": "casuariidae" } ]
+	},
+	{
+		"op": "add",
+		"path": "/client/behaviors/-",
+		"value": {
+			"code": "butcherable",
+			"itemByType": {
+				"anatidae-adult-female-*": "fotsa-butchering-compat:deadanatidae-female-1-dead",
+				"anatidae-adult-male-*": "fotsa-butchering-compat:deadanatidae-male-1-dead"
+			}
+		},
+		"file": "casuariidae:entities/land/anatidae-adult.json",
+		"dependsOn": [ { "modid": "casuariidae" } ]
+	},
+	{
+		"op": "add",
+		"path": "/server/behaviors/-",
+		"value": {
+			"code": "butcherable",
+			"itemByType": {
+				"anatidae-baby-*": "fotsa-butchering-compat:deadanatidae-baby-1-dead"
+			}
+		},
+		"file": "casuariidae:entities/land/anatidae-baby.json",
+		"dependsOn": [ { "modid": "casuariidae" } ]
+	},
+	{
+		"op": "add",
+		"path": "/client/behaviors/-",
+		"value": {
+			"code": "butcherable",
+			"itemByType": {
+				"anatidae-baby-*": "fotsa-butchering-compat:deadanatidae-baby-1-dead"
+			}
+		},
+		"file": "casuariidae:entities/land/anatidae-baby.json",
+		"dependsOn": [ { "modid": "casuariidae" } ]
+	}
+]

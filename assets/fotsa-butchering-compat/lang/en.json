@@ -20,5 +20,14 @@
 	"item-deadrallidae2-*": "Rails (Dead)",
 	"itemdesc-deadrallidae2-*": "The animals heaviness weighs you down a medium amount",
 	"item-deadstrigopidae-*": "Kakapo (Dead)",
-	"itemdesc-deadstrigopidae-*": "The animals heaviness weighs you down a small amount"
+	"itemdesc-deadstrigopidae-*": "The animals heaviness weighs you down a small amount",
+
+	"item-deadanatidae-*": "Goose (Dead)",
+	"itemdesc-deadanatidae-*": "The animals heaviness weighs you down a small amount",
+	"item-deadcasuariidae-*": "Emu (Dead)",
+	"itemdesc-deadcasuariidae-*": "The animals heaviness weighs you down a small amount",
+	"item-deaddromornithidae-*": "Mihirungs (Dead)",
+	"itemdesc-deaddromornithidae-*": "The animals heaviness weighs you down a medium amount",
+	"item-deadrallidae-*": "Rails (Dead)",
+	"itemdesc-deadrallidae-*": "The animals heaviness weighs you down a small amount"
 }

@@ -20,5 +20,14 @@
 	"item-deadrallidae2-*": "Râles (Mort)",
 	"itemdesc-deadrallidae2-*": "Le poids de l'animal vous pèse modérément",
 	"item-deadstrigopidae-*": "Kakapos (Mort)",
-	"itemdesc-deadstrigopidae-*": "Le poids de l'animal vous pèse légèrement"
+	"itemdesc-deadstrigopidae-*": "Le poids de l'animal vous pèse légèrement",
+
+	"item-deadanatidae-*": "Oies (Dead)",
+	"itemdesc-deadanatidae-*": "Le poids de l'animal vous pèse légèrement",
+	"item-deadcasuariidae-*": "Émeus (Dead)",
+	"itemdesc-deadcasuariidae-*": "Le poids de l'animal vous pèse légèrement",
+	"item-deaddromornithidae-*": "Mihirungs (Dead)",
+	"itemdesc-deaddromornithidae-*": "Le poids de l'animal vous pèse modérément",
+	"item-deadrallidae-*": "Râles (Dead)",
+	"itemdesc-deadrallidae-*": "Le poids de l'animal vous pèse légèrement"
 }
