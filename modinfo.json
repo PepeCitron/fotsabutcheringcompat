@@ -1,0 +1,15 @@
+{
+  "type": "content",
+  "modId": "fotsabutcheringcompat",
+  "name": "FotSA Butchering Compat",
+  "authors": ["PepeCitron"],
+  "description": "Butchering compatibility for FotSA mods.",
+  "version": "0.1.0",
+  "side": "Universal",
+  "requiredOnClient": true,
+  "requiredOnServer": true,
+  "dependencies": {
+    "game": "",
+    "butchering": ""
+  }
+}

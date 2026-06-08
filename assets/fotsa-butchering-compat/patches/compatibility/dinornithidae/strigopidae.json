@@ -1,0 +1,37 @@
+[
+	{
+		"op": "replace",
+		"path": "/enabled",
+		"value": true,
+		"file": "fotsa-butchering-compat:itemtypes/butchercreatures/dinornithidae/strigopidae.json",
+		"dependsOn": [ { "modid": "dinornithidae" } ]
+	},
+	{
+		"op": "add",
+		"path": "/server/behaviors/-",
+		"value": {
+			"code": "butcherable",
+			"itemByType": {
+				"strigopidae-adult-female-*": "fotsa-butchering-compat:deadstrigopidae-female-1-dead",
+				"strigopidae-adult-male-*": "fotsa-butchering-compat:deadstrigopidae-male-1-dead",
+				"strigopidae-baby-*": "fotsa-butchering-compat:deadstrigopidae-baby-1-dead"
+			}
+		},
+		"file": "dinornithidae:entities/land/strigopidae.json",
+		"dependsOn": [ { "modid": "dinornithidae" } ]
+	},
+	{
+		"op": "add",
+		"path": "/client/behaviors/-",
+		"value": {
+			"code": "butcherable",
+			"itemByType": {
+				"strigopidae-adult-female-*": "fotsa-butchering-compat:deadstrigopidae-female-1-dead",
+				"strigopidae-adult-male-*": "fotsa-butchering-compat:deadstrigopidae-male-1-dead",
+				"strigopidae-baby-*": "fotsa-butchering-compat:deadstrigopidae-baby-1-dead"
+			}
+		},
+		"file": "dinornithidae:entities/land/strigopidae.json",
+		"dependsOn": [ { "modid": "dinornithidae" } ]
+	}
+]

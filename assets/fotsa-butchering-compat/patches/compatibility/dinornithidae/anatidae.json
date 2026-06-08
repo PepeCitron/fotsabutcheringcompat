@@ -1,0 +1,37 @@
+[
+	{
+		"op": "replace",
+		"path": "/enabled",
+		"value": true,
+		"file": "fotsa-butchering-compat:itemtypes/butchercreatures/dinornithidae/anatidae.json",
+		"dependsOn": [ { "modid": "dinornithidae" } ]
+	},
+	{
+		"op": "add",
+		"path": "/server/behaviors/-",
+		"value": {
+			"code": "butcherable",
+			"itemByType": {
+				"anatidae-adult-female-*": "fotsa-butchering-compat:deaddanatidae-female-1-dead",
+				"anatidae-adult-male-*": "fotsa-butchering-compat:deaddanatidae-male-1-dead",
+				"anatidae-baby-*": "fotsa-butchering-compat:deaddanatidae-baby-1-dead"
+			}
+		},
+		"file": "dinornithidae:entities/land/anatidae.json",
+		"dependsOn": [ { "modid": "dinornithidae" } ]
+	},
+	{
+		"op": "add",
+		"path": "/client/behaviors/-",
+		"value": {
+			"code": "butcherable",
+			"itemByType": {
+				"anatidae-adult-female-*": "fotsa-butchering-compat:deaddanatidae-female-1-dead",
+				"anatidae-adult-male-*": "fotsa-butchering-compat:deaddanatidae-male-1-dead",
+				"anatidae-baby-*": "fotsa-butchering-compat:deaddanatidae-baby-1-dead"
+			}
+		},
+		"file": "dinornithidae:entities/land/anatidae.json",
+		"dependsOn": [ { "modid": "dinornithidae" } ]
+	}
+]

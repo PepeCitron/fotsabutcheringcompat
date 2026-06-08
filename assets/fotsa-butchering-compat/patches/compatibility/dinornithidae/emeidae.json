@@ -1,0 +1,37 @@
+[
+	{
+		"op": "replace",
+		"path": "/enabled",
+		"value": true,
+		"file": "fotsa-butchering-compat:itemtypes/butchercreatures/dinornithidae/emeidae.json",
+		"dependsOn": [ { "modid": "dinornithidae" } ]
+	},
+	{
+		"op": "add",
+		"path": "/server/behaviors/-",
+		"value": {
+			"code": "butcherable",
+			"itemByType": {
+				"emeidae-adult-female-*": "fotsa-butchering-compat:deademeidae-female-1-dead",
+				"emeidae-adult-male-*": "fotsa-butchering-compat:deademeidae-male-1-dead",
+				"emeidae-baby-*": "fotsa-butchering-compat:deademeidae-baby-1-dead"
+			}
+		},
+		"file": "dinornithidae:entities/land/emeidae.json",
+		"dependsOn": [ { "modid": "dinornithidae" } ]
+	},
+	{
+		"op": "add",
+		"path": "/client/behaviors/-",
+		"value": {
+			"code": "butcherable",
+			"itemByType": {
+				"emeidae-adult-female-*": "fotsa-butchering-compat:deademeidae-female-1-dead",
+				"emeidae-adult-male-*": "fotsa-butchering-compat:deademeidae-male-1-dead",
+				"emeidae-baby-*": "fotsa-butchering-compat:deademeidae-baby-1-dead"
+			}
+		},
+		"file": "dinornithidae:entities/land/emeidae.json",
+		"dependsOn": [ { "modid": "dinornithidae" } ]
+	}
+]

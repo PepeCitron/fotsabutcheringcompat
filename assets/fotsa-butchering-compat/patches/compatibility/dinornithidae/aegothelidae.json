@@ -1,0 +1,37 @@
+[
+	{
+		"op": "replace",
+		"path": "/enabled",
+		"value": true,
+		"file": "fotsa-butchering-compat:itemtypes/butchercreatures/dinornithidae/aegothelidae.json",
+		"dependsOn": [ { "modid": "dinornithidae" } ]
+	},
+	{
+		"op": "add",
+		"path": "/server/behaviors/-",
+		"value": {
+			"code": "butcherable",
+			"itemByType": {
+				"aegothelidae-adult-female-*": "fotsa-butchering-compat:deadaegothelidae-female-1-dead",
+				"aegothelidae-adult-male-*": "fotsa-butchering-compat:deadaegothelidae-male-1-dead",
+				"aegothelidae-baby-*": "fotsa-butchering-compat:deadaegothelidae-baby-1-dead"
+			}
+		},
+		"file": "dinornithidae:entities/land/aegothelidae.json",
+		"dependsOn": [ { "modid": "dinornithidae" } ]
+	},
+	{
+		"op": "add",
+		"path": "/client/behaviors/-",
+		"value": {
+			"code": "butcherable",
+			"itemByType": {
+				"aegothelidae-adult-female-*": "fotsa-butchering-compat:deadaegothelidae-female-1-dead",
+				"aegothelidae-adult-male-*": "fotsa-butchering-compat:deadaegothelidae-male-1-dead",
+				"aegothelidae-baby-*": "fotsa-butchering-compat:deadaegothelidae-baby-1-dead"
+			}
+		},
+		"file": "dinornithidae:entities/land/aegothelidae.json",
+		"dependsOn": [ { "modid": "dinornithidae" } ]
+	}
+]
