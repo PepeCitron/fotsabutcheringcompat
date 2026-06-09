@@ -38,5 +38,8 @@
 	"itemdesc-deadfelinae-*": "Le poids de l'animal vous pèse modérément",
 
 	"item-deadmanidae-*": "Pangolin (Dead)",
-	"itemdesc-deadmanidae-*": "Le poids de l'animal vous pèse légèrement"
+	"itemdesc-deadmanidae-*": "Le poids de l'animal vous pèse légèrement",
+
+	"item-deadrhinocerotidae-*": "Rhinocéros (Dead)",
+	"itemdesc-deadrhinocerotidae-*": "Le poids de l'animal vous pèse modérément/lourdement"
 }
