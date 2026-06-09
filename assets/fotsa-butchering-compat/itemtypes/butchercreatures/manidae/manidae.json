@@ -1,0 +1,225 @@
+{
+	"enabled": false,
+	"code": "deadmanidae",
+	"class": "butcherable",
+	"variantgroups": [
+		{
+			"code": "type",
+			"states": [ "male", "female", "baby" ]
+		},
+		{
+			"code": "texture",
+			"states": [ "1" ]
+		},
+		{
+			"code": "state",
+			"states": [ "dead", "skinned", "bledout", "rotten" ]
+		}
+	],
+	"maxstacksize": 1,
+	"behaviors": [],
+	"texturesByType": {
+		"deadmanidae-male-1-dead": { "meat": { "base": "butchering:item/butchercreatures/animalpoultrymeatbloody" } },
+		"deadmanidae-female-1-dead": { "meat": { "base": "butchering:item/butchercreatures/animalpoultrymeatbloody" } },
+		"deadmanidae-baby-1-dead": { "meat": { "base": "butchering:item/butchercreatures/animalpoultrymeatbloody" } },
+		"deadmanidae-male-1-skinned": {
+			"fur": { "base": "butchering:item/butchercreatures/animalpoultrymeatbloody" },
+			"meat": { "base": "butchering:item/butchercreatures/animalpoultrymeatbloody" }
+		},
+		"deadmanidae-female-1-skinned": {
+			"fur": { "base": "butchering:item/butchercreatures/animalpoultrymeatbloody" },
+			"meat": { "base": "butchering:item/butchercreatures/animalpoultrymeatbloody" }
+		},
+		"deadmanidae-baby-1-skinned": {
+			"fur": { "base": "butchering:item/butchercreatures/animalpoultrymeatbloody" },
+			"meat": { "base": "butchering:item/butchercreatures/animalpoultrymeatbloody" }
+		},
+		"deadmanidae-male-1-bledout": {
+			"fur": { "base": "butchering:item/butchercreatures/animalpoultrymeatbledout" },
+			"meat": { "base": "butchering:item/butchercreatures/animalpoultrymeatbledout" }
+		},
+		"deadmanidae-female-1-bledout": {
+			"fur": { "base": "butchering:item/butchercreatures/animalpoultrymeatbledout" },
+			"meat": { "base": "butchering:item/butchercreatures/animalpoultrymeatbledout" }
+		},
+		"deadmanidae-baby-1-bledout": {
+			"fur": { "base": "butchering:item/butchercreatures/animalpoultrymeatbledout" },
+			"meat": { "base": "butchering:item/butchercreatures/animalpoultrymeatbledout" }
+		},
+		"deadmanidae-male-1-rotten": {
+			"fur": { "base": "game:block/creature/rot/rot" },
+			"meat": { "base": "game:block/creature/rot/rot" }
+		},
+		"deadmanidae-female-1-rotten": {
+			"fur": { "base": "game:block/creature/rot/rot" },
+			"meat": { "base": "game:block/creature/rot/rot" }
+		},
+		"deadmanidae-baby-1-rotten": {
+			"fur": { "base": "game:block/creature/rot/rot" },
+			"meat": { "base": "game:block/creature/rot/rot" }
+		}
+	},
+	"attributesByType": {
+		"deadmanidae-male-1-*": {
+			"size": 0.5,
+			"mass": 0,
+			"bloodType": "butchering:bloodportion",
+			"bloodAmount": 20,
+			"butcheringWorkLoad": "small",
+			"handbookByType": {
+				"*-rotten": {
+					"exclude": false
+				},
+				"*": {
+					"exclude": true
+				}
+			},
+			"hangingShape": { "base": "butchering:creatures/modded/genericsmall/small-hanging" },
+			"excludeRewards": [],
+			"butcheringRewards": [
+			],
+			"skinningRewards": [
+			]
+		},
+		"deadmanidae-female-1-*": {
+			"size": 0.5,
+			"mass": 0,
+			"bloodType": "butchering:bloodportion",
+			"bloodAmount": 20,
+			"butcheringWorkLoad": "small",
+			"handbookByType": {
+				"*-rotten": {
+					"exclude": false
+				},
+				"*": {
+					"exclude": true
+				}
+			},
+			"hangingShape": { "base": "butchering:creatures/modded/genericsmall/small-hanging" },
+			"excludeRewards": [],
+			"butcheringRewards": [
+			],
+			"skinningRewards": [
+			]
+		},
+		"deadmanidae-baby-1-*": {
+			"size": 0.5,
+			"mass": 0,
+			"bloodType": "butchering:bloodportion",
+			"bloodAmount": 20,
+			"butcheringWorkLoad": "small",
+			"handbookByType": {
+				"*-rotten": {
+					"exclude": false
+				},
+				"*": {
+					"exclude": true
+				}
+			},
+			"hangingShape": { "base": "butchering:creatures/modded/genericsmall/small-hanging" },
+			"excludeRewards": [],
+			"butcheringRewards": [
+			],
+			"skinningRewards": [
+			]
+		}
+	},
+
+	"shapeByType": {
+		"deadmanidae-male-1-*": { "base": "butchering:creatures/modded/genericsmall/small-dead" },
+		"deadmanidae-female-1-*": { "base": "butchering:creatures/modded/genericsmall/small-dead" },
+		"deadmanidae-baby-1-*": { "base": "butchering:creatures/modded/genericsmall/small-dead" }
+
+	},
+	"storageFlagsbytype": {
+		"deadmanidae-baby-1-*": 2049,
+		"*-rotten": 1,
+		"*": 2050
+	},
+	"transitionablePropsByType": {
+		"*-rotten": [],
+		"*": [
+			{
+				"type": "perish",
+				"freshHours": {
+					"avg": 80
+				},
+				"transitionHours": {
+					"avg": 24
+				},
+				"transitionedStack": {
+					"type": "item",
+					"code": "fotsa-butchering-compat:deadmanidae-{type}-1-rotten"
+				},
+				"transitionRatio": 1
+			}
+		]
+	},
+	"creativeinventory": {
+		"general": [ "*" ],
+		"items": [ "*" ]
+	},
+	"heldTpIdleAnimation": "holdunderarm",
+	"guiTransform": {
+		"translation": {
+			"x": 0,
+			"y": 0,
+			"z": 0
+		},
+		"rotation": {
+			"x": -20,
+			"y": 21,
+			"z": 180
+		},
+		"origin": {
+			"x": 0.53,
+			"y": 0.35,
+			"z": 0.5
+		},
+		"scale": 1,
+		"rotate": true
+	},
+	"fpHandTransform": {
+		"translation": {
+			"x": 0,
+			"y": 0,
+			"z": 0
+		},
+		"rotation": {
+			"x": -132,
+			"y": -180,
+			"z": -18
+		}
+	},
+	"tpHandTransform": {
+		"translation": {
+			"x": -0.5,
+			"y": -0.3,
+			"z": -0.7
+		},
+		"rotation": {
+			"x": -89,
+			"y": -12,
+			"z": 3
+		},
+		"scale": 0.86
+	},
+	"groundTransform": {
+		"translation": {
+			"x": 0,
+			"y": 0,
+			"z": 0
+		},
+		"rotation": {
+			"x": 180,
+			"y": 33,
+			"z": -180
+		},
+		"origin": {
+			"x": 0.5,
+			"y": 0,
+			"z": 0.5
+		},
+		"scale": 4.5
+	}
+}

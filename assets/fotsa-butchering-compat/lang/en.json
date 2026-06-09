@@ -28,12 +28,15 @@
 	"itemdesc-deadcasuariidae-*": "The animals heaviness weighs you down a small amount",
 	"item-deaddromornithidae-*": "Mihirungs (Dead)",
 	"itemdesc-deaddromornithidae-*": "The animals heaviness weighs you down a medium amount",
-	"item-deadrallidae-*": "Rails (Dead)",
+	"item-deadrallidae-*": "Rail (Dead)",
 	"itemdesc-deadrallidae-*": "The animals heaviness weighs you down a small amount",
 
 	"item-deadelephantidae-*": "Elephant (Dead)",
 	"itemdesc-deadelephantidae-*": "The animals heaviness weighs you down a huge amount",
 
-	"item-deadfelinae-*": "Cats (Dead)",
-	"itemdesc-deadfelinae-*": "The animals heaviness weighs you down a medium amount"
+	"item-deadfelinae-*": "Cat (Dead)",
+	"itemdesc-deadfelinae-*": "The animals heaviness weighs you down a medium amount",
+
+	"item-deadmanidae-*": "Pangolin (Dead)",
+	"itemdesc-deadmanidae-*": "The animals heaviness weighs you down a small amount"
 }

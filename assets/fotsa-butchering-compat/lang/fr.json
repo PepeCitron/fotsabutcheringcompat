@@ -28,12 +28,15 @@
 	"itemdesc-deadcasuariidae-*": "Le poids de l'animal vous pèse légèrement",
 	"item-deaddromornithidae-*": "Mihirungs (Dead)",
 	"itemdesc-deaddromornithidae-*": "Le poids de l'animal vous pèse modérément",
-	"item-deadrallidae-*": "Râles (Dead)",
+	"item-deadrallidae-*": "Râle (Dead)",
 	"itemdesc-deadrallidae-*": "Le poids de l'animal vous pèse légèrement",
 
 	"item-deadelephantidae-*": "Éléphant (Dead)",
 	"itemdesc-deadelephantidae-*": "Le poids de l'animal vous pèse lourdement",
 
-	"item-deadfelinae-*": "Félins (Dead)",
-	"itemdesc-deadfelinae-*": "Le poids de l'animal vous pèse modérément"
+	"item-deadfelinae-*": "Félin (Dead)",
+	"itemdesc-deadfelinae-*": "Le poids de l'animal vous pèse modérément",
+
+	"item-deadmanidae-*": "Pangolin (Dead)",
+	"itemdesc-deadmanidae-*": "Le poids de l'animal vous pèse légèrement"
 }
