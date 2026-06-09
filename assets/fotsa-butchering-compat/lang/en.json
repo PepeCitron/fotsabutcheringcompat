@@ -32,5 +32,8 @@
 	"itemdesc-deadrallidae-*": "The animals heaviness weighs you down a small amount",
 
 	"item-deadelephantidae-*": "Elephant (Dead)",
-	"itemdesc-deadelephantidae-*": "The animals heaviness weighs you down a huge amount"
+	"itemdesc-deadelephantidae-*": "The animals heaviness weighs you down a huge amount",
+
+	"item-deadfelinae-*": "Cats (Dead)",
+	"itemdesc-deadfelinae-*": "The animals heaviness weighs you down a medium amount"
 }

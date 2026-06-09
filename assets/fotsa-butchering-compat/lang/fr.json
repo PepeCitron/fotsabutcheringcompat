@@ -32,5 +32,8 @@
 	"itemdesc-deadrallidae-*": "Le poids de l'animal vous pèse légèrement",
 
 	"item-deadelephantidae-*": "Éléphant (Dead)",
-	"itemdesc-deadelephantidae-*": "Le poids de l'animal vous pèse lourdement"
+	"itemdesc-deadelephantidae-*": "Le poids de l'animal vous pèse lourdement",
+
+	"item-deadfelinae-*": "Félins (Dead)",
+	"itemdesc-deadfelinae-*": "Le poids de l'animal vous pèse modérément"
 }
