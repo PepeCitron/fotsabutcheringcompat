@@ -41,5 +41,8 @@
 	"itemdesc-deadmanidae-*": "The animals heaviness weighs you down a small amount",
 
 	"item-deadrhinocerotidae-*": "Rhinoceros (Dead)",
-	"itemdesc-deadrhinocerotidae-*": "The animals heaviness weighs you down a medium/large amount"
+	"itemdesc-deadrhinocerotidae-*": "The animals heaviness weighs you down a medium/large amount",
+
+	"item-deadspheniscidae-*": "Penguin (Dead)",
+	"itemdesc-deadspheniscidae-*": "The animals heaviness weighs you down a small amount"
 }

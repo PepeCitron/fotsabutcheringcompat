@@ -3,7 +3,7 @@
 	"itemdesc-deadacanthisittidae-*": "Le poids de l'animal vous pèse légèrement",
 	"item-deadaegothelidae-*": "Egothèles (Mort)",
 	"itemdesc-deadaegothelidae-*": "Le poids de l'animal vous pèse légèrement",
-	"item-deaddanatidae-*": "Oies (Dead)",
+	"item-deaddanatidae-*": "Oies (Mort)",
 	"itemdesc-deaddanatidae-*": "Le poids de l'animal vous pèse légèrement",
 	"item-deadapterygidae-*": "Kiwis (Mort)",
 	"itemdesc-deadapterygidae-*": "Le poids de l'animal vous pèse légèrement",
@@ -22,24 +22,27 @@
 	"item-deadstrigopidae-*": "Kakapos (Mort)",
 	"itemdesc-deadstrigopidae-*": "Le poids de l'animal vous pèse légèrement",
 
-	"item-deadanatidae-*": "Oies (Dead)",
+	"item-deadanatidae-*": "Oies (Mort)",
 	"itemdesc-deadanatidae-*": "Le poids de l'animal vous pèse légèrement",
-	"item-deadcasuariidae-*": "Émeus (Dead)",
+	"item-deadcasuariidae-*": "Émeus (Mort)",
 	"itemdesc-deadcasuariidae-*": "Le poids de l'animal vous pèse légèrement",
-	"item-deaddromornithidae-*": "Mihirungs (Dead)",
+	"item-deaddromornithidae-*": "Mihirungs (Mort)",
 	"itemdesc-deaddromornithidae-*": "Le poids de l'animal vous pèse modérément",
-	"item-deadrallidae-*": "Râle (Dead)",
+	"item-deadrallidae-*": "Râle (Mort)",
 	"itemdesc-deadrallidae-*": "Le poids de l'animal vous pèse légèrement",
 
-	"item-deadelephantidae-*": "Éléphant (Dead)",
+	"item-deadelephantidae-*": "Éléphant (Mort)",
 	"itemdesc-deadelephantidae-*": "Le poids de l'animal vous pèse lourdement",
 
-	"item-deadfelinae-*": "Félin (Dead)",
+	"item-deadfelinae-*": "Félin (Mort)",
 	"itemdesc-deadfelinae-*": "Le poids de l'animal vous pèse modérément",
 
-	"item-deadmanidae-*": "Pangolin (Dead)",
+	"item-deadmanidae-*": "Pangolin (Mort)",
 	"itemdesc-deadmanidae-*": "Le poids de l'animal vous pèse légèrement",
 
-	"item-deadrhinocerotidae-*": "Rhinocéros (Dead)",
-	"itemdesc-deadrhinocerotidae-*": "Le poids de l'animal vous pèse modérément/lourdement"
+	"item-deadrhinocerotidae-*": "Rhinocéros (Mort)",
+	"itemdesc-deadrhinocerotidae-*": "Le poids de l'animal vous pèse modérément/lourdement",
+
+	"item-deadspheniscidae-*": "Manchot (Mort)",
+	"itemdesc-deadspheniscidae-*": "Le poids de l'animal vous pèse légèrement"
 }
