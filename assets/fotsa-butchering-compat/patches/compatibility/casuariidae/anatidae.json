@@ -16,7 +16,7 @@
 				"anatidae-adult-male-*": "fotsa-butchering-compat:deadanatidae-male-1-dead"
 			}
 		},
-		"file": "casuariidae:entities/land/anatidae-adult.json",
+		"file": "casuariidae:entities/animal/bird/anatidae-adult.json",
 		"dependsOn": [ { "modid": "casuariidae" } ]
 	},
 	{
@@ -29,7 +29,7 @@
 				"anatidae-adult-male-*": "fotsa-butchering-compat:deadanatidae-male-1-dead"
 			}
 		},
-		"file": "casuariidae:entities/land/anatidae-adult.json",
+		"file": "casuariidae:entities/animal/bird/anatidae-adult.json",
 		"dependsOn": [ { "modid": "casuariidae" } ]
 	},
 	{
@@ -41,7 +41,7 @@
 				"anatidae-baby-*": "fotsa-butchering-compat:deadanatidae-baby-1-dead"
 			}
 		},
-		"file": "casuariidae:entities/land/anatidae-baby.json",
+		"file": "casuariidae:entities/animal/bird/anatidae-baby.json",
 		"dependsOn": [ { "modid": "casuariidae" } ]
 	},
 	{
@@ -53,7 +53,7 @@
 				"anatidae-baby-*": "fotsa-butchering-compat:deadanatidae-baby-1-dead"
 			}
 		},
-		"file": "casuariidae:entities/land/anatidae-baby.json",
+		"file": "casuariidae:entities/animal/bird/anatidae-baby.json",
 		"dependsOn": [ { "modid": "casuariidae" } ]
 	}
 ]

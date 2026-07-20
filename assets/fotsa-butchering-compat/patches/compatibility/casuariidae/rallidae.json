@@ -16,7 +16,7 @@
 				"rallidae-adult-male-*": "fotsa-butchering-compat:deadrallidae-male-1-dead"
 			}
 		},
-		"file": "casuariidae:entities/land/rallidae-adult.json",
+		"file": "casuariidae:entities/animal/bird/rallidae-adult.json",
 		"dependsOn": [ { "modid": "casuariidae" } ]
 	},
 	{
@@ -29,7 +29,7 @@
 				"rallidae-adult-male-*": "fotsa-butchering-compat:deadrallidae-male-1-dead"
 			}
 		},
-		"file": "casuariidae:entities/land/rallidae-adult.json",
+		"file": "casuariidae:entities/animal/bird/rallidae-adult.json",
 		"dependsOn": [ { "modid": "casuariidae" } ]
 	},
 	{
@@ -41,7 +41,7 @@
 				"rallidae-baby-*": "fotsa-butchering-compat:deadrallidae-baby-1-dead"
 			}
 		},
-		"file": "casuariidae:entities/land/rallidae-baby.json",
+		"file": "casuariidae:entities/animal/bird/rallidae-baby.json",
 		"dependsOn": [ { "modid": "casuariidae" } ]
 	},
 	{
@@ -53,7 +53,7 @@
 				"rallidae-baby-*": "fotsa-butchering-compat:deadrallidae-baby-1-dead"
 			}
 		},
-		"file": "casuariidae:entities/land/rallidae-baby.json",
+		"file": "casuariidae:entities/animal/bird/rallidae-baby.json",
 		"dependsOn": [ { "modid": "casuariidae" } ]
 	}
 ]

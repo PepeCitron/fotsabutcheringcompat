@@ -16,7 +16,7 @@
 				"casuariidae-adult-male-*": "fotsa-butchering-compat:deadcasuariidae-male-1-dead"
 			}
 		},
-		"file": "casuariidae:entities/land/casuariidae-adult.json",
+		"file": "casuariidae:entities/animal/bird/casuariidae-adult.json",
 		"dependsOn": [ { "modid": "casuariidae" } ]
 	},
 	{
@@ -29,7 +29,7 @@
 				"casuariidae-adult-male-*": "fotsa-butchering-compat:deadcasuariidae-male-1-dead"
 			}
 		},
-		"file": "casuariidae:entities/land/casuariidae-adult.json",
+		"file": "casuariidae:entities/animal/bird/casuariidae-adult.json",
 		"dependsOn": [ { "modid": "casuariidae" } ]
 	},
 	{
@@ -41,7 +41,7 @@
 				"casuariidae-baby-*": "fotsa-butchering-compat:deadcasuariidae-baby-1-dead"
 			}
 		},
-		"file": "casuariidae:entities/land/casuariidae-baby.json",
+		"file": "casuariidae:entities/animal/bird/casuariidae-baby.json",
 		"dependsOn": [ { "modid": "casuariidae" } ]
 	},
 	{
@@ -53,7 +53,7 @@
 				"casuariidae-baby-*": "fotsa-butchering-compat:deadcasuariidae-baby-1-dead"
 			}
 		},
-		"file": "casuariidae:entities/land/casuariidae-baby.json",
+		"file": "casuariidae:entities/animal/bird/casuariidae-baby.json",
 		"dependsOn": [ { "modid": "casuariidae" } ]
 	}
 ]
