@@ -44,5 +44,8 @@
 	"itemdesc-deadrhinocerotidae-*": "Le poids de l'animal vous pèse modérément/lourdement",
 
 	"item-deadspheniscidae-*": "Manchot (Mort)",
-	"itemdesc-deadspheniscidae-*": "Le poids de l'animal vous pèse légèrement"
+	"itemdesc-deadspheniscidae-*": "Le poids de l'animal vous pèse légèrement",
+
+	"item-deadbovinae-*": "Bovin (Dead)",
+	"itemdesc-deadbovinae-*": "Le poids de l'animal vous pèse lourdement"
 }
