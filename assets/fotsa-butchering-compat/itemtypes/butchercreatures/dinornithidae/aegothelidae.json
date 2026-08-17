@@ -132,9 +132,9 @@
 
 	},
 	"storageFlagsbytype": {
-		"deadaegothelidae-baby-1-*": 2049,
+		"deadaegothelidae-baby-1-*": 32769,
 		"*-rotten": 1,
-		"*": 2050
+		"*": 32769
 	},
 	"transitionablePropsByType": {
 		"*-rotten": [],

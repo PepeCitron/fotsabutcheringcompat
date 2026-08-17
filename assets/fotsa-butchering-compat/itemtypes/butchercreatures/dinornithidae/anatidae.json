@@ -132,9 +132,9 @@
 
 	},
 	"storageFlagsbytype": {
-		"deaddanatidae-baby-1-*": 2049,
+		"deaddanatidae-baby-1-*": 32769,
 		"*-rotten": 1,
-		"*": 2050
+		"*": 32769
 	},
 	"transitionablePropsByType": {
 		"*-rotten": [],

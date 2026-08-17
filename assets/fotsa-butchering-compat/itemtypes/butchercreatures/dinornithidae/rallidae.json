@@ -132,9 +132,9 @@
 
 	},
 	"storageFlagsbytype": {
-		"deadrallidae2-baby-1-*": 2049,
+		"deadrallidae2-baby-1-*": 32769,
 		"*-rotten": 1,
-		"*": 2050
+		"*": 32769
 	},
 	"transitionablePropsByType": {
 		"*-rotten": [],

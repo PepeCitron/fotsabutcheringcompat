@@ -131,9 +131,9 @@
 
 	},
 	"storageFlagsbytype": {
-		"deaddinornithidae-baby-*": 2049,
+		"deaddinornithidae-baby-*": 32769,
 		"*-rotten": 1,
-		"*": 2050
+		"*": 32770
 	},
 	"transitionablePropsByType": {
 		"*-rotten": [],
