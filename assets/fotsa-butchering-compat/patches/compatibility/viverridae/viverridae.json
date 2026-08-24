@@ -1,0 +1,43 @@
+[
+    {
+		"op": "replace",
+		"path": "/enabled",
+		"value": true,
+		"file": "fotsa-butchering-compat:itemtypes/butchercreatures/viverridae/viverridae.json",
+		"dependsOn": [ { "modid": "viverridae" } ]
+	},
+    {
+        "op": "add",
+        "path": "/server/behaviors/-",
+        "value": {
+            "code": "butcherable",
+            "itemByType": {
+                "*-adult-female-*": "fotsa-butchering-compat:deadviverridae-female-1-dead",
+                "*-adult-male-*": "fotsa-butchering-compat:deadviverridae-male-1-dead"
+            }
+        },
+        "file": "viverridae:entities/land/viverridae.json",
+        "dependsOn": [
+            {
+                "modid": "viverridae"
+            }
+        ]
+    },
+    {
+        "op": "add",
+        "path": "/client/behaviors/-",
+        "value": {
+            "code": "butcherable",
+            "itemByType": {
+                "*-adult-female-*": "fotsa-butchering-compat:deadviverridae-female-1-dead",
+                "*-adult-male-*": "fotsa-butchering-compat:deadviverridae-male-1-dead"
+            }
+        },
+        "file": "viverridae:entities/land/viverridae.json",
+        "dependsOn": [
+            {
+                "modid": "viverridae"
+            }
+        ]
+    }
+]

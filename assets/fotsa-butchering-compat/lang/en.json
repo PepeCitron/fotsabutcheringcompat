@@ -47,5 +47,35 @@
 	"itemdesc-deadspheniscidae-*": "The animals heaviness weighs you down a small amount",
 	
 	"item-deadbovinae-*": "Bovine (Dead)",
-	"itemdesc-deadbovinae-*": "The animals heaviness weighs you down a huge amount"
+	"itemdesc-deadbovinae-*": "The animals heaviness weighs you down a huge amount",
+
+    "item-deadcervini-*": "Deer (Dead)",
+    "itemdesc-deadcervini-*": "The animals heaviness weighs you down a medium amount",
+
+    "item-deadchelonioidea-*": "Sea Turtle (Dead)",
+    "itemdesc-deadchelonioidea-*": "The animals heaviness weighs you down a medium/large amount",
+
+    "item-deadiniidae-*": "River Turtle (Dead)",
+    "itemdesc-deadiniidae-*": "The animals heaviness weighs you down a medium amount",
+
+    "item-deadmeiolaniidae-*": "Turtle (Dead)",
+    "itemdesc-deadmeiolaniidae-*": "The animals heaviness weighs you down a huge amount",
+
+    "item-deaddasyuridae-*": "Marsupial (Dead)",
+    "itemdesc-deaddasyuridae-*": "The animals heaviness weighs you down a small amount",
+
+    "item-deadnandiniidae-*": "Pangolin (Dead)",
+    "itemdesc-deadnandiniidae-*": "The animals heaviness weighs you down a small amount",
+
+    "item-deadviverridae-*": "Civet (Dead)",
+    "itemdesc-deadviverridae-*": "The animals heaviness weighs you down a medium amount",
+
+    "item-deaddiprotodontidae-*": "Diprotodont (Dead)",
+    "itemdesc-deaddiprotodontidae-*": "The animals heaviness weighs you down a medium amount",
+
+    "item-deadthylacoleonidae-*": "Marsupial Lion (Dead)",
+    "itemdesc-deadthylacoleonidae-*": "The animals heaviness weighs you down a huge amount",
+
+    "item-deadvombatidae-*": "Wombat (Dead)",
+    "itemdesc-deadvombatidae-*": "The animals heaviness weighs you down a medium/large amount"
 }

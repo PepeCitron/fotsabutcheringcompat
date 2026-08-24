@@ -47,5 +47,35 @@
 	"itemdesc-deadspheniscidae-*": "Le poids de l'animal vous pèse légèrement",
 
 	"item-deadbovinae-*": "Bovin (Dead)",
-	"itemdesc-deadbovinae-*": "Le poids de l'animal vous pèse lourdement"
+	"itemdesc-deadbovinae-*": "Le poids de l'animal vous pèse lourdement",
+
+    "item-deadcervini-*": "Cerf (Mort)",
+    "itemdesc-deadcervini-*": "Le poids de l'animal vous pèse modérément",
+
+    "item-deadchelonioidea-*": "Tortue Marine (Morte)",
+    "itemdesc-deadchelonioidea-*": "Le poids de l'animal vous pèse modérément/lourdement",
+
+    "item-deadiniidae-*": "Tortue de Rivière (Morte)",
+    "itemdesc-deadiniidae-*": "Le poids de l'animal vous pèse modérément",
+
+    "item-deadmeiolaniidae-*": "Turtue (Morte)",
+    "itemdesc-deadmeiolaniidae-*": "Le poids de l'animal vous pèse lourdement",
+
+    "item-deaddasyuridae-*": "Marsupial (Mort)",
+    "itemdesc-deaddasyuridae-*": "Le poids de l'animal vous pèse légèrement",
+
+    "item-deadnandiniidae-*": "Pangolin (Mort)",
+    "itemdesc-deadnandiniidae-*": "Le poids de l'animal vous pèse légèrement",
+
+    "item-deadviverridae-*": "Civette (Morte)",
+    "itemdesc-deadviverridae-*": "Le poids de l'animal vous pèse modérément",
+
+    "item-deaddiprotodontidae-*": "Diprotodonte (Mort)",
+    "itemdesc-deaddiprotodontidae-*": "Le poids de l'animal vous pèse modérément",
+
+    "item-deadthylacoleonidae-*": "Lion Marsupial (Mort)",
+    "itemdesc-deadthylacoleonidae-*": "Le poids de l'animal vous pèse lourdement",
+
+    "item-deadvombatidae-*": "Wombat (Mort)",
+    "itemdesc-deadvombatidae-*": "Le poids de l'animal vous pèse modérément/lourdement"
 }
