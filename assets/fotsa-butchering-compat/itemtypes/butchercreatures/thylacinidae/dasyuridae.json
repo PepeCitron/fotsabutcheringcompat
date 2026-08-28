@@ -132,9 +132,9 @@
 
 	},
 	"storageFlagsbytype": {
-		"deaddasyuridae-baby-1-*": 2049,
+		"deaddasyuridae-baby-1-*": 32769,
 		"*-rotten": 1,
-		"*": 2050
+		"*": 32770
 	},
 	"transitionablePropsByType": {
 		"*-rotten": [],
