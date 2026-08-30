@@ -86,6 +86,7 @@
 			"mass": 0.02,
 			"bloodType": "butchering:bloodportion",
 			"bloodAmount": 0,
+			"butcheringWorkLoad": "small",
 			"handbookByType": {
 				"*-rotten": {
 					"exclude": false
