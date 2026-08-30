@@ -1,0 +1,43 @@
+[
+    {
+		"op": "replace",
+		"path": "/enabled",
+		"value": true,
+		"file": "fotsa-butchering-compat:itemtypes/butchercreatures/cervinae/cervini.json",
+		"dependsOn": [ { "modid": "cervinae" } ]
+	},
+    {
+        "op": "add",
+        "path": "/server/behaviors/-",
+        "value": {
+            "code": "butcherable",
+            "itemByType": {
+                "*-adult-female-*": "fotsa-butchering-compat:deadcervini-female-1-dead",
+                "*-adult-male-*": "fotsa-butchering-compat:deadcervini-male-1-dead"
+            }
+        },
+        "file": "cervinae:entities/land/cervini.json",
+        "dependsOn": [
+            {
+                "modid": "cervinae"
+            }
+        ]
+    },
+    {
+        "op": "add",
+        "path": "/client/behaviors/-",
+        "value": {
+            "code": "butcherable",
+            "itemByType": {
+                "*-adult-female-*": "fotsa-butchering-compat:deadcervini-female-1-dead",
+                "*-adult-male-*": "fotsa-butchering-compat:deadcervini-male-1-dead"
+            }
+        },
+        "file": "cervinae:entities/land/cervini.json",
+        "dependsOn": [
+            {
+                "modid": "cervinae"
+            }
+        ]
+    }
+]

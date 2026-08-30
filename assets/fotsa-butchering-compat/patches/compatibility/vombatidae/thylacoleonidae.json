@@ -1,0 +1,75 @@
+[
+    {
+		"op": "replace",
+		"path": "/enabled",
+		"value": true,
+		"file": "fotsa-butchering-compat:itemtypes/butchercreatures/vombatidae/thylacoleonidae.json",
+		"dependsOn": [ { "modid": "vombatidae" } ]
+	},
+    {
+        "op": "add",
+        "path": "/server/behaviors/-",
+        "value": {
+            "code": "butcherable",
+            "itemByType": {
+                "*-adult-female-*": "fotsa-butchering-compat:deadthylacoleonidae-female-1-dead",
+                "*-adult-male-*": "fotsa-butchering-compat:deadthylacoleonidae-male-1-dead"
+            }
+        },
+        "file": "vombatidae:entities/land/thylacoleonidae-adult.json",
+        "dependsOn": [
+            {
+                "modid": "vombatidae"
+            }
+        ]
+    },
+    {
+        "op": "add",
+        "path": "/client/behaviors/-",
+        "value": {
+            "code": "butcherable",
+            "itemByType": {
+                "*-adult-female-*": "fotsa-butchering-compat:deadthylacoleonidae-female-1-dead",
+                "*-adult-male-*": "fotsa-butchering-compat:deadthylacoleonidae-male-1-dead"
+            }
+        },
+        "file": "vombatidae:entities/land/thylacoleonidae-adult.json",
+        "dependsOn": [
+            {
+                "modid": "vombatidae"
+            }
+        ]
+    },
+    {
+        "op": "add",
+        "path": "/server/behaviors/-",
+        "value": {
+            "code": "butcherable",
+            "itemByType": {
+                "*-baby-*": "fotsa-butchering-compat:deadthylacoleonidae-baby-1-dead"
+            }
+        },
+        "file": "vombatidae:entities/land/thylacoleonidae-baby.json",
+        "dependsOn": [
+            {
+                "modid": "vombatidae"
+            }
+        ]
+    },
+    {
+        "op": "add",
+        "path": "/client/behaviors/-",
+        "value": {
+            "code": "butcherable",
+            "itemByType": {
+                "*-baby-*": "fotsa-butchering-compat:deadthylacoleonidae-baby-1-dead"
+            }
+        },
+        "file": "vombatidae:entities/land/thylacoleonidae-baby.json",
+        "dependsOn": [
+            {
+                "modid": "vombatidae"
+            }
+        ]
+    }
+]

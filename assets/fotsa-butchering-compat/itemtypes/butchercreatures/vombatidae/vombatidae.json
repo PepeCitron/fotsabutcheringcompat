@@ -1,0 +1,225 @@
+{
+	"enabled": false,
+	"code": "deadvombatidae",
+	"class": "butcherable",
+	"variantgroups": [
+		{
+			"code": "type",
+			"states": [ "male", "female", "baby" ]
+		},
+		{
+			"code": "texture",
+			"states": [ "1" ]
+		},
+		{
+			"code": "state",
+			"states": [ "dead", "skinned", "bledout", "rotten" ]
+		}
+	],
+	"maxstacksize": 1,
+	"behaviors": [],
+	"texturesByType": {
+		"deadvombatidae-male-1-dead": { "meat": { "base": "butchering:item/butchercreatures/animalbushmeatbloody" } },
+		"deadvombatidae-female-1-dead": { "meat": { "base": "butchering:item/butchercreatures/animalbushmeatbloody" } },
+		"deadvombatidae-baby-1-dead": { "meat": { "base": "butchering:item/butchercreatures/animalbushmeatbloody" } },
+		"deadvombatidae-male-1-skinned": {
+			"fur": { "base": "butchering:item/butchercreatures/animalbushmeatbloody" },
+			"meat": { "base": "butchering:item/butchercreatures/animalbushmeatbloody" }
+		},
+		"deadvombatidae-female-1-skinned": {
+			"fur": { "base": "butchering:item/butchercreatures/animalbushmeatbloody" },
+			"meat": { "base": "butchering:item/butchercreatures/animalbushmeatbloody" }
+		},
+		"deadvombatidae-baby-1-skinned": {
+			"fur": { "base": "butchering:item/butchercreatures/animalbushmeatbloody" },
+			"meat": { "base": "butchering:item/butchercreatures/animalbushmeatbloody" }
+		},
+		"deadvombatidae-male-1-bledout": {
+			"fur": { "base": "butchering:item/butchercreatures/animalbushmeatbledout" },
+			"meat": { "base": "butchering:item/butchercreatures/animalbushmeatbledout" }
+		},
+		"deadvombatidae-female-1-bledout": {
+			"fur": { "base": "butchering:item/butchercreatures/animalbushmeatbledout" },
+			"meat": { "base": "butchering:item/butchercreatures/animalbushmeatbledout" }
+		},
+		"deadvombatidae-baby-1-bledout": {
+			"fur": { "base": "butchering:item/butchercreatures/animalbushmeatbledout" },
+			"meat": { "base": "butchering:item/butchercreatures/animalbushmeatbledout" }
+		},
+		"deadvombatidae-male-1-rotten": {
+			"fur": { "base": "game:block/creature/rot/rot" },
+			"meat": { "base": "game:block/creature/rot/rot" }
+		},
+		"deadvombatidae-female-1-rotten": {
+			"fur": { "base": "game:block/creature/rot/rot" },
+			"meat": { "base": "game:block/creature/rot/rot" }
+		},
+		"deadvombatidae-baby-1-rotten": {
+			"fur": { "base": "game:block/creature/rot/rot" },
+			"meat": { "base": "game:block/creature/rot/rot" }
+		}
+	},
+	"attributesByType": {
+		"deadvombatidae-male-1-*": {
+			"size": 0.5,
+			"mass": 0.20,
+			"bloodType": "butchering:bloodportion",
+			"bloodAmount": 600,
+			"butcheringWorkLoad": "large",
+			"handbookByType": {
+				"*-rotten": {
+					"exclude": false
+				},
+				"*": {
+					"exclude": true
+				}
+			},
+			"hangingShape": { "base": "butchering:creatures/modded/generichuge/huge-hanging" },
+			"excludeRewards": [],
+			"butcheringRewards": [
+			],
+			"skinningRewards": [
+			]
+		},
+		"deadvombatidae-female-1-*": {
+			"size": 0.5,
+			"mass": 0.20,
+			"bloodType": "butchering:bloodportion",
+			"bloodAmount": 600,
+			"butcheringWorkLoad": "large",
+			"handbookByType": {
+				"*-rotten": {
+					"exclude": false
+				},
+				"*": {
+					"exclude": true
+				}
+			},
+			"hangingShape": { "base": "butchering:creatures/modded/generichuge/huge-hanging" },
+			"excludeRewards": [],
+			"butcheringRewards": [
+			],
+			"skinningRewards": [
+			]
+		},
+		"deadvombatidae-baby-1-*": {
+			"size": 0.5,
+			"mass": 0.04,
+			"bloodType": "butchering:bloodportion",
+			"bloodAmount": 50,
+			"butcheringWorkLoad": "medium",
+			"handbookByType": {
+				"*-rotten": {
+					"exclude": false
+				},
+				"*": {
+					"exclude": true
+				}
+			},
+			"hangingShape": { "base": "butchering:creatures/modded/genericmedium/medium-hanging" },
+			"excludeRewards": [],
+			"butcheringRewards": [
+			],
+			"skinningRewards": [
+			]
+		}
+	},
+
+	"shapeByType": {
+		"deadvombatidae-male-1-*": { "base": "butchering:creatures/modded/generichuge/huge-dead" },
+		"deadvombatidae-female-1-*": { "base": "butchering:creatures/modded/generichuge/huge-dead" },
+		"deadvombatidae-baby-1-*": { "base": "butchering:creatures/modded/genericmedium/medium-dead" }
+
+	},
+	"storageFlagsbytype": {
+		"deadvombatidae-baby-1-*": 32769,
+		"*-rotten": 1,
+		"*": 32770
+	},
+	"transitionablePropsByType": {
+		"*-rotten": [],
+		"*": [
+			{
+				"type": "perish",
+				"freshHours": {
+					"avg": 80
+				},
+				"transitionHours": {
+					"avg": 24
+				},
+				"transitionedStack": {
+					"type": "item",
+					"code": "fotsa-butchering-compat:deadvombatidae-{type}-1-rotten"
+				},
+				"transitionRatio": 1
+			}
+		]
+	},
+	"creativeinventory": {
+		"general": [ "*" ],
+		"items": [ "*" ]
+	},
+	"heldTpIdleAnimation": "holdunderarm",
+	"guiTransform": {
+		"translation": {
+			"x": 0,
+			"y": 0,
+			"z": 0
+		},
+		"rotation": {
+			"x": -20,
+			"y": 21,
+			"z": 180
+		},
+		"origin": {
+			"x": 0.53,
+			"y": 0.35,
+			"z": 0.5
+		},
+		"scale": 1,
+		"rotate": true
+	},
+	"fpHandTransform": {
+		"translation": {
+			"x": 0,
+			"y": 0,
+			"z": 0
+		},
+		"rotation": {
+			"x": -132,
+			"y": -180,
+			"z": -18
+		}
+	},
+	"tpHandTransform": {
+		"translation": {
+			"x": -0.5,
+			"y": -0.3,
+			"z": -0.7
+		},
+		"rotation": {
+			"x": -89,
+			"y": -12,
+			"z": 3
+		},
+		"scale": 0.86
+	},
+	"groundTransform": {
+		"translation": {
+			"x": 0,
+			"y": 0,
+			"z": 0
+		},
+		"rotation": {
+			"x": 180,
+			"y": 33,
+			"z": -180
+		},
+		"origin": {
+			"x": 0.5,
+			"y": 0,
+			"z": 0.5
+		},
+		"scale": 4.5
+	}
+}
