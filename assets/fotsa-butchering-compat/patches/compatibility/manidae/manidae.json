@@ -13,11 +13,10 @@
 			"code": "butcherable",
 			"itemByType": {
 				"manidae-adult-female-*": "fotsa-butchering-compat:deadmanidae-female-1-dead",
-				"manidae-adult-male-*": "fotsa-butchering-compat:deadmanidae-male-1-dead",
-				"manidae-baby-*": "fotsa-butchering-compat:deadmanidae-baby-1-dead"
+				"manidae-adult-male-*": "fotsa-butchering-compat:deadmanidae-male-1-dead"
 			}
 		},
-		"file": "manidae:entities/land/manidae.json",
+		"file": "manidae:entities/animal/mammal/manidae-adult.json",
 		"dependsOn": [ { "modid": "manidae" } ]
 	},
 	{
@@ -27,11 +26,34 @@
 			"code": "butcherable",
 			"itemByType": {
 				"manidae-adult-female-*": "fotsa-butchering-compat:deadmanidae-female-1-dead",
-				"manidae-adult-male-*": "fotsa-butchering-compat:deadmanidae-male-1-dead",
+				"manidae-adult-male-*": "fotsa-butchering-compat:deadmanidae-male-1-dead"
+			}
+		},
+		"file": "manidae:entities/animal/mammal/manidae-adult.json",
+		"dependsOn": [ { "modid": "manidae" } ]
+	},
+	{
+		"op": "add",
+		"path": "/server/behaviors/-",
+		"value": {
+			"code": "butcherable",
+			"itemByType": {
 				"manidae-baby-*": "fotsa-butchering-compat:deadmanidae-baby-1-dead"
 			}
 		},
-		"file": "manidae:entities/land/manidae.json",
+		"file": "manidae:entities/animal/mammal/manidae-baby.json",
+		"dependsOn": [ { "modid": "manidae" } ]
+	},
+	{
+		"op": "add",
+		"path": "/client/behaviors/-",
+		"value": {
+			"code": "butcherable",
+			"itemByType": {
+				"manidae-baby-*": "fotsa-butchering-compat:deadmanidae-baby-1-dead"
+			}
+		},
+		"file": "manidae:entities/animal/mammal/manidae-baby.json",
 		"dependsOn": [ { "modid": "manidae" } ]
 	}
 ]

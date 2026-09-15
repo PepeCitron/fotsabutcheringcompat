@@ -13,11 +13,10 @@
 			"code": "butcherable",
 			"itemByType": {
 				"rhinocerotidae-adult-female-*": "fotsa-butchering-compat:deadrhinocerotidae-female-1-dead",
-				"rhinocerotidae-adult-male-*": "fotsa-butchering-compat:deadrhinocerotidae-male-1-dead",
-				"rhinocerotidae-baby-*": "fotsa-butchering-compat:deadrhinocerotidae-baby-1-dead"
+				"rhinocerotidae-adult-male-*": "fotsa-butchering-compat:deadrhinocerotidae-male-1-dead"
 			}
 		},
-		"file": "rhinocerotidae:entities/land/rhinocerotidae.json",
+		"file": "rhinocerotidae:entities/animal/mammal/hooved/rhinocerotidae-adult.json",
 		"dependsOn": [ { "modid": "rhinocerotidae" } ]
 	},
 	{
@@ -27,11 +26,34 @@
 			"code": "butcherable",
 			"itemByType": {
 				"rhinocerotidae-adult-female-*": "fotsa-butchering-compat:deadrhinocerotidae-female-1-dead",
-				"rhinocerotidae-adult-male-*": "fotsa-butchering-compat:deadrhinocerotidae-male-1-dead",
+				"rhinocerotidae-adult-male-*": "fotsa-butchering-compat:deadrhinocerotidae-male-1-dead"
+			}
+		},
+		"file": "rhinocerotidae:entities/animal/mammal/hooved/rhinocerotidae-adult.json",
+		"dependsOn": [ { "modid": "rhinocerotidae" } ]
+	},
+	{
+		"op": "add",
+		"path": "/server/behaviors/-",
+		"value": {
+			"code": "butcherable",
+			"itemByType": {
 				"rhinocerotidae-baby-*": "fotsa-butchering-compat:deadrhinocerotidae-baby-1-dead"
 			}
 		},
-		"file": "rhinocerotidae:entities/land/rhinocerotidae.json",
+		"file": "rhinocerotidae:entities/animal/mammal/hooved/rhinocerotidae-baby.json",
+		"dependsOn": [ { "modid": "rhinocerotidae" } ]
+	},
+	{
+		"op": "add",
+		"path": "/client/behaviors/-",
+		"value": {
+			"code": "butcherable",
+			"itemByType": {
+				"rhinocerotidae-baby-*": "fotsa-butchering-compat:deadrhinocerotidae-baby-1-dead"
+			}
+		},
+		"file": "rhinocerotidae:entities/animal/mammal/hooved/rhinocerotidae-baby.json",
 		"dependsOn": [ { "modid": "rhinocerotidae" } ]
 	}
 ]
