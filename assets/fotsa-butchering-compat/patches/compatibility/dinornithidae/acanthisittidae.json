@@ -13,11 +13,10 @@
 			"code": "butcherable",
 			"itemByType": {
 				"acanthisittidae-adult-female-*": "fotsa-butchering-compat:deadacanthisittidae-female-1-dead",
-				"acanthisittidae-adult-male-*": "fotsa-butchering-compat:deadacanthisittidae-male-1-dead",
-				"acanthisittidae-baby-*": "fotsa-butchering-compat:deadacanthisittidae-baby-1-dead"
+				"acanthisittidae-adult-male-*": "fotsa-butchering-compat:deadacanthisittidae-male-1-dead"
 			}
 		},
-		"file": "dinornithidae:entities/land/acanthisittidae.json",
+		"file": "dinornithidae:entities/animal/bird/acanthisittidae-adult.json",
 		"dependsOn": [ { "modid": "dinornithidae" } ]
 	},
 	{
@@ -27,11 +26,34 @@
 			"code": "butcherable",
 			"itemByType": {
 				"acanthisittidae-adult-female-*": "fotsa-butchering-compat:deadacanthisittidae-female-1-dead",
-				"acanthisittidae-adult-male-*": "fotsa-butchering-compat:deadacanthisittidae-male-1-dead",
+				"acanthisittidae-adult-male-*": "fotsa-butchering-compat:deadacanthisittidae-male-1-dead"
+			}
+		},
+		"file": "dinornithidae:entities/animal/bird/acanthisittidae-adult.json",
+		"dependsOn": [ { "modid": "dinornithidae" } ]
+	},
+	{
+		"op": "add",
+		"path": "/server/behaviors/-",
+		"value": {
+			"code": "butcherable",
+			"itemByType": {
 				"acanthisittidae-baby-*": "fotsa-butchering-compat:deadacanthisittidae-baby-1-dead"
 			}
 		},
-		"file": "dinornithidae:entities/land/acanthisittidae.json",
+		"file": "dinornithidae:entities/animal/bird/acanthisittidae-baby.json",
+		"dependsOn": [ { "modid": "dinornithidae" } ]
+	},
+	{
+		"op": "add",
+		"path": "/client/behaviors/-",
+		"value": {
+			"code": "butcherable",
+			"itemByType": {
+				"acanthisittidae-baby-*": "fotsa-butchering-compat:deadacanthisittidae-baby-1-dead"
+			}
+		},
+		"file": "dinornithidae:entities/animal/bird/acanthisittidae-baby.json",
 		"dependsOn": [ { "modid": "dinornithidae" } ]
 	}
 ]
