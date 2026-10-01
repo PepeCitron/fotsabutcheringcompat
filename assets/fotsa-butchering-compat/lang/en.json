@@ -77,5 +77,8 @@
     "itemdesc-deadthylacoleonidae-*": "The animals heaviness weighs you down a huge amount",
 
     "item-deadvombatidae-*": "Wombat (Dead)",
-    "itemdesc-deadvombatidae-*": "The animals heaviness weighs you down a medium/large amount"
+    "itemdesc-deadvombatidae-*": "The animals heaviness weighs you down a medium/large amount",
+
+	"item-deadmoschidae-*": "Musk Deer (Dead)",
+	"itemdesc-deadmoschidae-*": "The animals heaviness weighs you down a medium amount"
 }

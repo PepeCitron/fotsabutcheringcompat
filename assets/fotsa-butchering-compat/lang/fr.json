@@ -77,5 +77,8 @@
 	"itemdesc-deadthylacoleonidae-*": "Le poids de l'animal vous pèse lourdement",
 
 	"item-deadvombatidae-*": "Wombat (Mort)",
-	"itemdesc-deadvombatidae-*": "Le poids de l'animal vous pèse modérément/lourdement"
+	"itemdesc-deadvombatidae-*": "Le poids de l'animal vous pèse modérément/lourdement",
+
+	"item-deadmoschidae-*": "Cerf porte-musc (Mort)",
+	"itemdesc-deadmoschidae-*": "Le poids de l'animal vous pèse modérément"
 }

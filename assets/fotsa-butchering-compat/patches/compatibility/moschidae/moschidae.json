@@ -1,0 +1,59 @@
+[
+	{
+		"op": "replace",
+		"path": "/enabled",
+		"value": true,
+		"file": "fotsa-butchering-compat:itemtypes/butchercreatures/moschidae/moschidae.json",
+		"dependsOn": [ { "modid": "moschidae" } ]
+	},
+	{
+		"op": "add",
+		"path": "/server/behaviors/-",
+		"value": {
+			"code": "butcherable",
+			"itemByType": {
+				"moschidae-adult-female-*": "fotsa-butchering-compat:deadmoschidae-female-1-dead",
+				"moschidae-adult-male-*": "fotsa-butchering-compat:deadmoschidae-male-1-dead"
+			}
+		},
+		"file": "moschidae:entities/animal/mammal/hooved/moschidae-adult.json",
+		"dependsOn": [ { "modid": "moschidae" } ]
+	},
+	{
+		"op": "add",
+		"path": "/client/behaviors/-",
+		"value": {
+			"code": "butcherable",
+			"itemByType": {
+				"moschidae-adult-female-*": "fotsa-butchering-compat:deadmoschidae-female-1-dead",
+				"moschidae-adult-male-*": "fotsa-butchering-compat:deadmoschidae-male-1-dead"
+			}
+		},
+		"file": "moschidae:entities/animal/mammal/hooved/moschidae-adult.json",
+		"dependsOn": [ { "modid": "moschidae" } ]
+	},
+	{
+		"op": "add",
+		"path": "/server/behaviors/-",
+		"value": {
+			"code": "butcherable",
+			"itemByType": {
+				"moschidae-baby-*": "fotsa-butchering-compat:deadmoschidae-baby-1-dead"
+			}
+		},
+		"file": "moschidae:entities/animal/mammal/hooved/moschidae-baby.json",
+		"dependsOn": [ { "modid": "moschidae" } ]
+	},
+	{
+		"op": "add",
+		"path": "/client/behaviors/-",
+		"value": {
+			"code": "butcherable",
+			"itemByType": {
+				"moschidae-baby-*": "fotsa-butchering-compat:deadmoschidae-baby-1-dead"
+			}
+		},
+		"file": "moschidae:entities/animal/mammal/hooved/moschidae-baby.json",
+		"dependsOn": [ { "modid": "moschidae" } ]
+	}
+]
